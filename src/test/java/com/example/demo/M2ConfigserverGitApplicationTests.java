@@ -11,6 +11,7 @@ public class M2ConfigserverGitApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		// Making a change to trigger Jenkins.
 	}
 
 }
