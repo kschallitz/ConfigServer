@@ -12,6 +12,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+    	// Update the cross site response filtering to allow all requests.
         http.csrf().disable().authorizeRequests()
         .anyRequest().authenticated().and()
         .httpBasic();
